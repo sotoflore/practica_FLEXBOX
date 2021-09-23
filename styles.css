@@ -1,0 +1,43 @@
+body > div {
+    float: left;
+  }
+  
+  .list {
+    width: 150px;
+    height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    border-right: 1px solid rgb(214, 213, 213);
+  }
+  li {
+    font-size: 1.3em;
+    transform: rotateZ(360deg);
+    list-style-type: none;
+    width: 70px;
+    
+  }
+  
+  .main {
+    width: 600px;
+    height: 500px;
+    margin: 10px;
+    background-image: url("img/main-image.png");
+    background-repeat: none;
+    color: red;
+  }
+  .title {
+    font-size: 4em;
+    margin: 20px 100px;
+  }
+  .subtitle {
+    width: 400px;
+    margin: 20px 400px;
+  }
+  .sidebar {
+    width: 400px;
+  }
+  .item1 {
+    border-bottom: 5px solid white;
+  }
+  

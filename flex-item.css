@@ -1,0 +1,11 @@
+.item {
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    padding: 10px;
+  }
+  
+  .item:nth-child(2n + 1) {
+    background-color: white;
+  }
+ 
